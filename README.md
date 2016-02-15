@@ -3,6 +3,7 @@
 Installation instructions for Windows on PowerShell:
 
 ````powershell
-git clone https://github.com/pedrofernandesfilho/vimfiles.git $env:USERPROFILE\vimfiles
-
+git clone https://github.com/pedrofernandesfilho/vimfiles.git $HOME\vimfiles
+cd $HOME
+"source $HOME\vimfiles\.vimrc" | Out-File $HOME\_vimrc -Encoding utf8
 ````
