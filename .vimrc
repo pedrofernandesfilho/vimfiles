@@ -17,6 +17,22 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
+" My customizations
+set ls=2                        " always show status bar
+set number                      " show line numbers
+set cursorline                  " display a marker on current line
+
+"colorscheme twilight            " set colorscheme
+
+"set completeopt=menuone,longest " simple autocomplete for anything
+
+call pathogen#infect()          " initializes pathogen to manage plugins
+
+map <F2> :NERDTree<CR>
+
 imap jj <Esc>
 nmap oo o<Esc>k
+nmap ooo o<Enter>
 nmap OO O<Esc>j
+
+set relativenumber
