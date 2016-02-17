@@ -18,7 +18,7 @@ set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
 " My customizations
-set ls=2                        " always show status bar
+"set ls=2                        " always show status bar
 set number                      " show line numbers
 set cursorline                  " display a marker on current line
 
