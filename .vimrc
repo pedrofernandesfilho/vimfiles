@@ -33,10 +33,21 @@ set completeopt=menuone,longest " simple autocomplete for anything
 set wildmode=list:longest,full  " autocomplete for paths and files
 set wildignore+=.git            " ignore these extensions on autocomplete
 
-"set backupdir=C:/temp            " directory used to save backup files
-"set directory=C:/temp            " directory used to save swap files
-set nobackup                     " no backup files
-set nowritebackup                " no swap files
+set backupdir=/tmp              " directory used to save backup files
+set directory=/tmp              " directory used to save swap files
+set nobackup                    " no backup files
+set nowritebackup               " no swap files
+
+set t_Co=256                    " forces terminal to use 256 colors
+
+if has("gui_running")
+  if has("gui_win32")
+    colorscheme torte               " set gui colorscheme
+    set guifont=Consolas:h11:cANSI  " set gui font
+    :set guioptions-=T              " remove menu bar
+    :set guioptions-=r              " remove right-hand scroll bar
+  endif
+endif
 
 call pathogen#infect()          " initializes pathogen to manage plugins
 
