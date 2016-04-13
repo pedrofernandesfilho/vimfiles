@@ -33,8 +33,8 @@ set completeopt=menuone,longest " simple autocomplete for anything
 set wildmode=list:longest,full  " autocomplete for paths and files
 set wildignore+=.git            " ignore these extensions on autocomplete
 
-set backupdir=/tmp              " directory used to save backup files
-set directory=/tmp              " directory used to save swap files
+set backupdir=C:/tmp              " directory used to save backup files
+set directory=C;/tmp              " directory used to save swap files
 set nobackup                    " no backup files
 set nowritebackup               " no swap files
 
