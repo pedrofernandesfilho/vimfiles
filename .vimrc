@@ -25,6 +25,7 @@ set smartcase                   " ... unless they contain at least one capital l
 
 "" My customizations
 "set ls=2                        " always show status bar
+set ruler                       " display line number, column number and relative position of the cursor 
 set number                      " show line numbers
 set cursorline                  " display a marker on current line
 "colorscheme twilight            " set colorscheme
@@ -51,6 +52,7 @@ endif
 
 call pathogen#infect()          " initializes pathogen to manage plugins
 
+"" Maps
 map <F2> :NERDTree<CR>
 
 imap jj <Esc>
