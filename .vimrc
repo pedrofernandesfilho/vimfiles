@@ -42,6 +42,8 @@ set nowritebackup               " no swap files
 set t_Co=256                    " forces terminal to use 256 colors
 
 if has("gui_running")
+  set lines=40                      " set lines number - windows size
+  set columns=150                   " set columns number - windows size
   if has("gui_win32")
     colorscheme torte               " set gui colorscheme
     set guifont=Consolas:h11:cANSI  " set gui font
