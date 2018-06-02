@@ -1,6 +1,6 @@
-# Pedro Fernandes Filho's vimfiles
+# Pedro Fernandes Filho's Vim files
 
-Installation instructions for Windows on PowerShell:
+Install instructions for Windows on PowerShell:
 
 ````powershell
 git clone https://github.com/pedrofernandesfilho/vimfiles.git $HOME\vimfiles
