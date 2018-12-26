@@ -14,3 +14,10 @@ Set Vim as global Git editor on Windows PowerShell:
 ````powershell
 git config --global core.editor (New-Object -ComObject Scripting.FileSystemObject).getfile("$((gcm vim).source)").ShortPath.Replace('\','/')
 ````
+
+or
+
+Set **GVim** as global Git editor on Windows PowerShell:
+````powershell
+git config --global core.editor (New-Object -ComObject Scripting.FileSystemObject).getfile("$((gcm gvim).source)").ShortPath.Replace('\','/')
+````
