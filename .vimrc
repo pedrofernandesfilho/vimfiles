@@ -1,4 +1,4 @@
-" UNDO, BAKUP AND SWAP DIRECTORIES
+" UNDO, BACKUP AND SWAP DIRECTORIES
 
 set undodir=~/vimfiles/temp/undo " directory used to save undo files
 set backupdir=~/vimfiles/temp/bkp " directory used to save backup files
